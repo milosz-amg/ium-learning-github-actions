@@ -71,3 +71,9 @@ jobs:
       - name: Evaluate model
         run: |
           python test.py
+
+      - name: Upload metrics file
+        uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-metrics
+          path: metrics.txt
