@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+datasets
+tensorflow
+sacred
+mlflow
+dvc 
+dvc[ssh] 
+paramiko
